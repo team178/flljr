@@ -14,9 +14,12 @@ body {
 
 /* This styles the "title" of the page */
 #header {
+  background-color: #0F0838;
+  color: #FFFFFF;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin: -10px;
 }
 
 
@@ -30,7 +33,7 @@ h1 a {
   font-size: 80px;
   font-weight: bold;
   text-shadow: none;
-  color: #000000;
+  color:#FFD000;
   text-decoration: none;
   line-height: 1.15em;
   margin-top: 20px;
@@ -41,10 +44,12 @@ h2 {
 
 }
 
-.day {
-  width: 50%;
-  margin-left: 20px;
-  margin-right: 20px;
+#day {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  height: auto;
   
 }
 
@@ -53,4 +58,31 @@ h2 {
   width: 25%;
   /* height: 480px;
   width: 583px; */
+}
+
+
+#farmingtonrobotics {
+  background-color: #0F0838;
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: -10px;
+}
+
+.website-link:link {
+  color: #FFD000;
+}
+
+.website-link:visited {
+  color: #FFD000;
+}
+
+.website-link:hover {
+  color: #FFD000;
+}
+
+.website-link:active {
+  color: #FFD000;
 }
