@@ -9,6 +9,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 1.5em;
+  margin: 0px;
   
 }
 
@@ -19,7 +20,7 @@ body {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 40px;
-  margin: -10px;
+  margin: 0px;
 }
 
 
@@ -41,14 +42,19 @@ h1 a {
 }
 
 h2 {
+  font-weight: 500;
+}
 
+p {
+  font-weight: 400;
+  margin-left: 20px;
 }
 
 #day {
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   height: auto;
   
 }
@@ -68,7 +74,7 @@ h2 {
   padding-bottom: 20px;
   text-align: center;
   font-size: 16px;
-  margin: -10px;
+  margin: 0px;
 }
 
 .website-link:link {
